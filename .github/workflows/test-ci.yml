@@ -31,4 +31,4 @@ jobs:
     - name: Docker build
       run: |
         docker build --tag ${{ github.repository }}:${GITHUB_SHA::6} .
-        docker tag ${{ github.repository }}:latest
+        docker tag ${{ github.repository }}:${GITHUB_SHA::6} ${{ github.repository }}:latest
