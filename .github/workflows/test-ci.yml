@@ -27,3 +27,8 @@ jobs:
 
     - name: run test
       run: npm test
+      
+    - name: Docker build
+      run: |
+        docker build --tag ${{ github.repository }}:${GITHUB_SHA::6} .
+        docker tag ${{ github.repository }}:latest
