@@ -6,3 +6,4 @@ szia
 hello
 bello
 new line to readme hello szia
+another new line to the readme
