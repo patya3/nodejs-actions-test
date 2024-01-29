@@ -1,6 +1,6 @@
 # nodejs-actions-test
 
-devops course
+devops course main new
 
 szia
 hello
