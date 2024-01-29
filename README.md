@@ -2,9 +2,11 @@
 
 devops course main new
 
-szia new 3
+szia
 new line to readme hello szia
 another new line to the readme
 new line to readme hello szia
 first
-another new line to the readme third megmaradtam
+another new line to the readme third
+second
+new 3
