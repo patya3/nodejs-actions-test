@@ -2,12 +2,11 @@ const express = require("express");
 const app = express();
 const port = 3000;
 
-app.get("/", (req, res) => {
-  console.log("home");
-  res.send("Hello World!");
+app.get("/", (_req, res) => {
+  res.send("hello szia");
 });
 
 app.listen(port, () => {
-  onsole.log("app is running");
+  console.log("app is running and we happy");
   console.log(`Example app listening on port ${port}`);
 });
